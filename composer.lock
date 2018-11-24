@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "418e3c5832114dcf22d518aef5821980",
+    "packages": [
+        {
+            "name": "affcool/proxy",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/affcool/proxy.git",
+                "reference": "c9ce9a962e37da6ff219c5a0e954ac4d5feb23f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/affcool/proxy/zipball/c9ce9a962e37da6ff219c5a0e954ac4d5feb23f6",
+                "reference": "c9ce9a962e37da6ff219c5a0e954ac4d5feb23f6",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ext-curl": "*"
+            },
+            "suggest": {
+                "predis/predis": "For caching purposes"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Proxy\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "homepage": "https://afiltertracker.com/",
+            "time": "2018-11-23T11:36:02+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "affcool/proxy": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

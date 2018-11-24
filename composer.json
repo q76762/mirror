@@ -1,0 +1,11 @@
+{
+	"name": "affcool/mirror",
+	"type": "project",
+	"license": "MIT",
+	"description": "Wave Voyage 镜像站群系统",
+	"keywords": ["Wave Voyage", "镜像站群"],
+	"homepage": "http://wavevoyage.com/",
+	"require": {
+		"affcool/proxy": "dev-master"
+	}
+}
